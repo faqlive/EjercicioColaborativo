@@ -11,6 +11,7 @@ public class Ejecutador {
 		GestorPersistencia.recuperarVideojuesto("CallOfDuty");
 		
 		HtmlGenarator.printHtlm(cod);
+		HtmlGenarator.printJSON(cod);
 	}
 
 }
