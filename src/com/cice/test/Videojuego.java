@@ -35,5 +35,10 @@ public class Videojuego implements Serializable {
 	public void setPrecio(double precio) {
 		Precio = precio;
 	}
+	@Override
+	public String toString() {
+		return "Videojuego [titulo=" + titulo + ", plataforma=" + plataforma + ", Precio=" + Precio + "]";
+	}
+	
 	
 }

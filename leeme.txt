@@ -1,1 +1,17 @@
-Facundo es el jefe
+En este trabajo se va a crear un proyecto en grupos de tres desarrolladores (como mínimo).
+Uno de ellos hará las labores de coordinación, teniendo qué:
+• Crear el proyecto en el repositorio Github
+• Invitar al resto de participantes
+• Distribuir el trabajo
+• Integrar el trabajo
+El sistema tendrá la siguiente funcionalidad:
+• Gestionará la entidad Videojuego compuesta por los atributos:
+o Título
+o Plataforma
+o Precio
+• Permitirá introducir y almacenar un videojuego en un fichero utilizando ObjectStream.
+• Permitirá recuperar un videojuego a partir de su título.
+• Permitirá generar una página HTML con la información de un videojuego
+introduciendo su título.
+• Permitirá generar un documento xls con la información de un videojuego
+introduciendo su título.
