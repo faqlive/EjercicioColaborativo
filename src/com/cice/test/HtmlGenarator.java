@@ -16,7 +16,7 @@ public class HtmlGenarator {
 
 	public static void loadPlantilla() {
 		try {
-			plantilla = new BufferedReader(new FileReader("C:/VideJuegos/plantilla.html"));
+			plantilla = new BufferedReader(new FileReader("resource/plantilla.html"));
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
