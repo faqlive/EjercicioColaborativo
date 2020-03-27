@@ -24,7 +24,8 @@ public class Ejecutador {
 		String plataforma=sc.nextLine();
 		System.out.println("Introduzca precio");
 		double precio= sc.nextDouble();
-		
+		String name = "asdfadsf";
+		name.substring(0, 1).equalsIgnoreCase("x");
 		
 		Videojuego videogame = new Videojuego(titulo, plataforma, precio);
 		GestorPersistencia.almacenarVideojuego(videogame);
